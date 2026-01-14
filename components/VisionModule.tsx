@@ -101,7 +101,7 @@ const VisionModule: React.FC<Props> = ({ onItemsDetected }) => {
             </li>
             <li className="flex items-center gap-3 text-slate-300">
               <i className="fas fa-database text-emerald-500"></i>
-              <span>Pipeline: Vision -> Structure -> SQL Schema</span>
+              <span>Pipeline: Vision {'->'} Structure {'->'} SQL Schema</span>
             </li>
           </ul>
         </div>

@@ -1,12 +1,13 @@
-
 {
   "name": "rasoi-ops-ai-sustainability",
   "version": "1.0.0",
   "description": "AI-Driven Inventory & Sustainability Engine",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve .",
-    "build": "echo 'No build step required for ESM Native app'"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
     "AI",
@@ -16,5 +17,16 @@
     "Inventory Management"
   ],
   "author": "RasoiOps Team",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "recharts": "^3.6.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
 }

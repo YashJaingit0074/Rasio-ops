@@ -50,7 +50,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, setActiveTab }) =>
         <div className="p-6 border-t border-slate-800">
           <div className="bg-slate-800/50 p-4 rounded-xl text-center border border-slate-700/50">
             <div className="flex justify-center mb-2">
-              <span className="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded-full font-bold border border-emerald-500/20">Demo Mode Active</span>
+              <span className="bg-emerald-500/10 text-emerald-400 text-[10px] px-2 py-0.5 rounded-full font-bold border border-emerald-500/20">Active Mode </span>
             </div>
             <p className="text-xs text-slate-400 mb-1">Weekly Waste Redux</p>
             <p className="text-2xl font-bold text-emerald-400">-34.2%</p>
