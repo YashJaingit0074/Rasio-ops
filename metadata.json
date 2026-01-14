@@ -1,0 +1,7 @@
+{
+  "name": " RasoiOps1: AI Inventory & Sustainability Engine",
+  "description": "A professional AI-driven inventory management system designed to reduce food wastage through computer vision, predictive expiry heuristics, and RAG-based meal planning.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

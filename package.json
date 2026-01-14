@@ -1,0 +1,20 @@
+
+{
+  "name": "rasoi-ops-ai-sustainability",
+  "version": "1.0.0",
+  "description": "AI-Driven Inventory & Sustainability Engine",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step required for ESM Native app'"
+  },
+  "keywords": [
+    "AI",
+    "Sustainability",
+    "Gemini",
+    "React",
+    "Inventory Management"
+  ],
+  "author": "RasoiOps Team",
+  "license": "MIT"
+}
